@@ -40,13 +40,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 w-100">
             <li class="nav-item ms-auto me-auto w-75">
-              <form class="d-flex">
+              <div class="d-flex">
                 <!-- disables the search field if the user is on checkout page -->
                 <input v-if="showLessonPage" v-on:keyup="search" v-model="searchTerm" class="form-control" type="search"
                   placeholder="Search" aria-label="Search" />
                 <input v-else disabled v-on:keyup="search" v-model="searchTerm" class="form-control" type="search"
                   placeholder="Search" aria-label="Search" />
-              </form>
+              </div>
             </li>
             <li class="nav-item">
               <a v-if="showLessonPage" class="nav-link active" data-bs-toggle="offcanvas"
