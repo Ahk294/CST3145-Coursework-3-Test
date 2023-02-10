@@ -18,6 +18,11 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- link to webmanifest file -->
   <link rel="manifest" href="activities.webmanifest">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
   <title>Activities</title>
 </head>
 
