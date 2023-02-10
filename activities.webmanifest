@@ -1,0 +1,15 @@
+{
+  "name": "After School Activities",
+  "short_name": "Activities",
+  "description": "An online store for after school activities",
+  "icons": [
+    {
+      "src": "images/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "background_color": "#B12A34"
+}
